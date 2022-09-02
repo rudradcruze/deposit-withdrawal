@@ -4,10 +4,10 @@ document.getElementById('buttonSubmit').addEventListener('click', function(){
 
     if (userEmail == "rudra@gmail.com" && userPassword == "joybangla")
     {
-        console.log("valid user");
+        window.location.href = 'bank.html';
     }
     else
     {
-        console.log("invalid user");
+        alert('Please enter a valid username and password!');
     }
 })

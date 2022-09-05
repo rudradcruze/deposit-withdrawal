@@ -2,7 +2,7 @@ document.getElementById('buttonSubmit').addEventListener('click', function(){
     const userEmail = document.getElementById('userEmail').value;
     const userPassword = document.getElementById('userPassword').value;
 
-    if (userEmail == "rudra@gmail.com" && userPassword == "joybangla")
+    if (userEmail == "francisrudra@gmail.com" && userPassword == "joybangla")
     {
         window.location.href = 'bank.html';
     }
